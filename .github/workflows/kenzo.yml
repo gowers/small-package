@@ -45,9 +45,9 @@ jobs:
         chmod +x ${{matrix.target}}.sh
         git clone -b ${{matrix.target}} https://github.com/kenzok78/small-package.git ${{matrix.target}}
         cd ${{matrix.target}}
-        rm -Rf *
-        git rm --cache *
-        $GITHUB_WORKSPACE/${{matrix.target}}.sh
+        git rm -r --cache * &
+        rm -rf `find ./* -maxdepth 0 -type d ! -name "diy"`
+        $GITHUB_WORKSPACE/diy/${{matrix.target}}.sh
         
     - name: Upload
       env: 
