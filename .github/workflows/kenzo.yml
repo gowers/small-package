@@ -2,7 +2,7 @@ name: Update packages
 
 on:
   repository_dispatch:
-  workflow_dispatch:
+  release:
     types: published
   push:
     branches:
@@ -45,7 +45,7 @@ jobs:
         chmod +x ${{matrix.target}}.sh
         git clone -b ${{matrix.target}} https://github.com/kenzok78/small-package.git ${{matrix.target}}
         cd ${{matrix.target}}
-        git rm -r --cache * &
+        git rm --cache *
         rm -rf `find ./* -maxdepth 0 -type d ! -name "diy"`
         $GITHUB_WORKSPACE/diy/${{matrix.target}}.sh
         
@@ -59,3 +59,4 @@ jobs:
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +-%m.%d)"
         git push --quiet "https://${{ secrets.ACCESS_TOKEN }}@github.com/kenzok78/small-package.git" HEAD:${{matrix.target}}
+
