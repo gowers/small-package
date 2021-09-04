@@ -2,7 +2,7 @@ name: Update packages
 
 on:
   repository_dispatch:
-  release:
+  workflow_dispatch:
     types: published
   push:
     branches:
@@ -17,7 +17,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
 
     name: Update ${{matrix.target}}
