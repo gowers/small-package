@@ -41,7 +41,7 @@ jobs:
         
     - name: Clone packages
       run: |
-        cd $GITHUB_WORKSPACE
+        cd $GITHUB_WORKSPACE/diy
         chmod +x ${{matrix.target}}.sh
         git clone -b ${{matrix.target}} https://github.com/kenzok78/small-package.git ${{matrix.target}}
         cd ${{matrix.target}}
