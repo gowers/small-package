@@ -1,11 +1,11 @@
 ![kenzo github stats](https://github-readme-stats.vercel.app/api?username=kenzok8&show_icons=true&theme=merko)
 <div align="center">
 <h1 align="center">small_action</h1>
-<img src="https://img.shields.io/github/issues/kenzokk78/small-package?color=green">
-<img src="https://img.shields.io/github/stars/kenzokk78/small-package?color=yellow">
-<img src="https://img.shields.io/github/forks/kenzokk78/small-package?color=orange">
-<img src="https://img.shields.io/github/license/kenzokk78/small-package?color=ff69b4">
-<img src="https://img.shields.io/github/languages/code-size/kenzokk78/small-package?color=blueviolet">
+<img src="https://img.shields.io/github/issues/kenzok78/small-package?color=green">
+<img src="https://img.shields.io/github/stars/kenzok78/small-package?color=yellow">
+<img src="https://img.shields.io/github/forks/kenzok78/small-package?color=orange">
+<img src="https://img.shields.io/github/license/kenzok78/small-package?color=ff69b4">
+<img src="https://img.shields.io/github/languages/code-size/kenzok78/small-package?color=blueviolet">
 </div>
 
 
