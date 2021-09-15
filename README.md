@@ -30,7 +30,10 @@
 
 ##### 更新日志
 
+##### 插件下载:
 
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kenzok78/compile-packages?style=for-the-badge&label=Download)](https://github.com/kenzok78/compile-packages/releases/latest)
 
 #### 使用方式（三选一）：
 

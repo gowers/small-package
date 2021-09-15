@@ -15,6 +15,9 @@ git clone https://github.com/project-lede/luci-app-godproxy
 git clone https://github.com/sirpdboy/luci-app-advanced
 git clone https://github.com/ntlf9t/luci-app-easymesh
 git clone https://github.com/walkingsky/luci-wifidog luci-app-wifidog
+git clone https://github.com/linkease/ddnsto-openwrt
+svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav
+svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav
 svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-bypass/trunk/lua-maxminddb
 svn co https://github.com/garypang13/openwrt-bypass/trunk/smartdns-le
@@ -27,6 +30,7 @@ svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/naiveproxy
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/dns2socks
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/hysteria
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ipt2socks
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/kcptun
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/pdnsd-alt
@@ -51,8 +55,10 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
-svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-adguardhome
-svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
+svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-udp2raw
+svn co https://github.com/immortalwrt/packages/trunk/net/udp2raw-tunnel
+svn co https://github.com/kenzok8/jell/trunk/luci-app-adguardhome
+svn co https://github.com/kenzok8/jell/trunk/adguardhome
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-smartdns
 svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-gost
