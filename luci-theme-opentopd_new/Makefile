@@ -9,6 +9,8 @@ THEME_NAME:=opentopd
 THEME_TITLE:=opentopd_new kenzo
 
 PKG_NAME:=luci-theme-$(THEME_NAME)
+PKG_VERSION:=1.2.4
+PKG_RELEASE:=20201115
 
 include $(INCLUDE_DIR)/package.mk
 
