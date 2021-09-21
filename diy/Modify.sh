@@ -7,16 +7,4 @@ sed -i \
 -e 's/ca-certificates/ca-bundle/' \
 */Makefile
 
-for pkg in $(find -maxdepth 1 -type d -name "luci-*" ! -name "luci-app-dockerman" ! -name "luci-app-frpc" ! -name "luci-app-frps"); do
-  if [ "$(grep "luci.mk" $pkg/Makefile)" ]; then
-    sed -i '/\(PKG_VERSION\|PKG_RELEASE\):=/d' $pkg/Makefile
-  fi
-done
-
-for pkg in $(ls -d */); do
-  if [ "$(grep "PKG_RELEASE" $pkg/Makefile)" ]; then
-    sed -i "s/PKG_RELEASE:=.*/PKG_RELEASE:=$(git rev-list --count master $pkg)/" $pkg/Makefile || true
-  fi
-done
-
 exit 0
