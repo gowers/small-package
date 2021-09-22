@@ -63,7 +63,9 @@ svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-smartdns
 svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-gost
 
-
+git_sparse_clone master "https://github.com/immortalwrt/packages" "immpkgs"
+admin/bpytop libs/jpcre2 libs/wxbase libs/rapidjson libs/libcron libs/quickjspp libs/toml11 \
+done
 
 rm -rf ./*/.git
 rm -f ./*/.gitattributes

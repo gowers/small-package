@@ -69,6 +69,9 @@ svn co https://github.com/kenzok8/litte/trunk/luci-theme-atmaterial_new
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-mcat
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-tomato
 
+git_sparse_clone master "https://github.com/immortalwrt/packages" "immpkgs"
+admin/bpytop libs/jpcre2 libs/wxbase libs/rapidjson libs/libcron libs/quickjspp libs/toml11 \
+done
 
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
