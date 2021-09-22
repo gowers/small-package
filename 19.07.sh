@@ -63,9 +63,18 @@ svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-smartdns
 svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-gost
 
-git_sparse_clone master "https://github.com/immortalwrt/packages" "immpkgs"
-admin/bpytop libs/jpcre2 libs/wxbase libs/rapidjson libs/libcron libs/quickjspp libs/toml11 \
-done
+svn co https://github.com/immortalwrt/packages/trunk/admin/bpytop
+svn co https://github.com/immortalwrt/packages/trunk/libs/jpcre2
+svn co https://github.com/immortalwrt/packages/trunk/libs/wxbase
+svn co https://github.com/immortalwrt/packages/trunk/libs/libcron
+svn co https://github.com/immortalwrt/packages/trunk/libs/rapidjson
+svn co https://github.com/immortalwrt/packages/trunk/libs/quickjspp
+svn co https://github.com/immortalwrt/packages/trunk/libs/toml11
+svn co https://github.com/garypang13/openwrt-packages/trunk/qtbase
+svn co https://github.com/garypang13/openwrt-packages/trunk/qttools
+svn co https://github.com/garypang13/openwrt-packages/trunk/rblibtorrent
+
+
 
 rm -rf ./*/.git
 rm -f ./*/.gitattributes
