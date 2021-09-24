@@ -1,63 +1,67 @@
 #!/bin/bash
-git clone https://github.com/kiddin9/my-packages && mvdir my-packages
-git clone https://github.com/kiddin9/openwrt-bypass && mvdir openwrt-bypass
-git clone https://github.com/kiddin9/luci-app-dnsfilter
-git clone https://github.com/kiddin9/aria2
-git clone https://github.com/kiddin9/luci-app-eqos
-git clone https://github.com/kiddin9/luci-app-baidupcs-web
-git clone https://github.com/kiddin9/luci-theme-edge
-git clone https://github.com/kiddin9/qBittorrent-Enhanced-Edition
-git clone https://github.com/kiddin9/autoshare && mvdir autoshare
-git clone https://github.com/kiddin9/openwrt-openvpn && mvdir openwrt-openvpn
-git clone https://github.com/kiddin9/luci-app-xlnetacc
-git clone https://github.com/kiddin9/openwrt-amule-dlp && mvdir openwrt-amule-dlp
+function mvdir() {
+mv -n `find $1/* -maxdepth 0 -type d` ./
+rm -rf $1
+}
+git clone --depth 1 https://github.com/kiddin9/my-packages && mvdir my-packages
+git clone --depth 1 https://github.com/kiddin9/openwrt-bypass && mvdir openwrt-bypass
+git clone --depth 1 https://github.com/kiddin9/luci-app-dnsfilter
+git clone --depth 1 https://github.com/kiddin9/aria2
+git clone --depth 1 https://github.com/kiddin9/luci-app-eqos
+git clone --depth 1 https://github.com/kiddin9/luci-app-baidupcs-web
+git clone --depth 1 https://github.com/kiddin9/luci-theme-edge
+git clone --depth 1 https://github.com/kiddin9/qBittorrent-Enhanced-Edition
+git clone --depth 1 https://github.com/kiddin9/autoshare && mvdir autoshare
+git clone --depth 1 https://github.com/kiddin9/openwrt-openvpn && mvdir openwrt-openvpn
+git clone --depth 1 https://github.com/kiddin9/luci-app-xlnetacc
+git clone --depth 1 https://github.com/kiddin9/openwrt-amule-dlp && mvdir openwrt-amule-dlp
 
-git clone https://github.com/xiaorouji/openwrt-passwall
-git clone https://github.com/Lienol/openwrt-package
-git clone https://github.com/BoringCat/luci-app-mentohust
-git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk
-git clone https://github.com/rufengsuixing/luci-app-autoipsetadder
-git clone https://github.com/NateLol/luci-app-beardropper
-git clone https://github.com/riverscn/openwrt-iptvhelper && mvdir openwrt-iptvhelper
-git clone https://github.com/project-lede/luci-app-godproxy
-git clone https://github.com/BoringCat/luci-app-minieap
-git clone https://github.com/rufengsuixing/luci-app-onliner
-git clone https://github.com/tty228/luci-app-serverchan
-git clone https://github.com/4IceG/luci-app-sms-tool smstool && mvdir smstool
-git clone https://github.com/rufengsuixing/luci-app-usb3disable
-git clone https://github.com/silime/luci-app-xunlei
-git clone https://github.com/ysc3839/luci-proto-minieap
+git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall
+git clone --depth 1 https://github.com/Lienol/openwrt-package
+git clone --depth 1 https://github.com/BoringCat/luci-app-mentohust
+git clone --depth 1 https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk
+git clone --depth 1 https://github.com/rufengsuixing/luci-app-autoipsetadder
+git clone --depth 1 https://github.com/NateLol/luci-app-beardropper
+git clone --depth 1 https://github.com/riverscn/openwrt-iptvhelper && mvdir openwrt-iptvhelper
+git clone --depth 1 https://github.com/project-lede/luci-app-godproxy
+git clone --depth 1 https://github.com/BoringCat/luci-app-minieap
+git clone --depth 1 https://github.com/rufengsuixing/luci-app-onliner
+git clone --depth 1 https://github.com/tty228/luci-app-serverchan
+git clone --depth 1 https://github.com/4IceG/luci-app-sms-tool smstool && mvdir smstool
+git clone --depth 1 https://github.com/rufengsuixing/luci-app-usb3disable
+git clone --depth 1 https://github.com/silime/luci-app-xunlei
+git clone --depth 1 https://github.com/ysc3839/luci-proto-minieap
 
-git clone https://github.com/zzsj0928/luci-app-pushbot
-git clone https://github.com/shanglanxin/luci-app-homebridge
-git clone https://github.com/jerrykuku/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config
-git clone https://github.com/jerrykuku/luci-app-vssr
-git clone https://github.com/jerrykuku/luci-app-ttnode
-git clone https://github.com/jefferymvp/luci-app-koolproxyR
-git clone https://github.com/peter-tank/luci-app-dnscrypt-proxy2
-git clone https://github.com/sirpdboy/luci-app-advanced
-git clone https://github.com/sirpdboy/luci-app-netdata
-git clone https://github.com/sirpdboy/luci-app-poweroffdevice
-git clone https://github.com/sirpdboy/luci-app-autotimeset
-git clone https://github.com/wolandmaster/luci-app-rtorrent
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
-git clone https://github.com/NateLol/luci-app-oled
+git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot
+git clone --depth 1 https://github.com/shanglanxin/luci-app-homebridge
+git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon
+git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config
+git clone --depth 1 https://github.com/jerrykuku/luci-app-vssr
+git clone --depth 1 https://github.com/jerrykuku/luci-app-ttnode
+git clone --depth 1 https://github.com/jefferymvp/luci-app-koolproxyR
+git clone --depth 1 https://github.com/peter-tank/luci-app-dnscrypt-proxy2
+git clone --depth 1 https://github.com/sirpdboy/luci-app-advanced
+git clone --depth 1 https://github.com/sirpdboy/luci-app-netdata
+git clone --depth 1 https://github.com/sirpdboy/luci-app-poweroffdevice
+git clone --depth 1 https://github.com/sirpdboy/luci-app-autotimeset
+git clone --depth 1 https://github.com/wolandmaster/luci-app-rtorrent
+git clone --depth 1 https://github.com/jerrykuku/luci-app-jd-dailybonus
+git clone --depth 1 https://github.com/NateLol/luci-app-oled
 
-git clone https://github.com/destan19/OpenAppFilter && mvdir OpenAppFilter
-git clone https://github.com/esirplayground/luci-app-poweroff
-git clone https://github.com/lvqier/luci-app-dnsmasq-ipset
-git clone https://github.com/small-5/ddns-scripts-dnspod
-git clone https://github.com/small-5/ddns-scripts-aliyun
-git clone https://github.com/walkingsky/luci-wifidog luci-app-wifidog
-git clone https://github.com/peter-tank/luci-app-autorepeater
-git clone https://github.com/CCnut/feed-netkeeper && mvdir feed-netkeeper
-git clone https://github.com/brvphoenix/luci-app-wrtbwmon wrtbwmon1 && mvdir wrtbwmon1
-git clone https://github.com/brvphoenix/wrtbwmon wrtbwmon2 && mvdir wrtbwmon2
-git clone https://github.com/linkease/ddnsto-openwrt && mvdir ddnsto-openwrt
-git clone https://github.com/sensec/luci-app-udp2raw
-git clone https://github.com/LGA1150/openwrt-sysuh3c && mvdir openwrt-sysuh3c
-git clone https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd cupsd1/cups/cups ./ ; rm -rf cupsd1
+git clone --depth 1 https://github.com/destan19/OpenAppFilter && mvdir OpenAppFilter
+git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff
+git clone --depth 1 https://github.com/lvqier/luci-app-dnsmasq-ipset
+git clone --depth 1 https://github.com/small-5/ddns-scripts-dnspod
+git clone --depth 1 https://github.com/small-5/ddns-scripts-aliyun
+git clone --depth 1 https://github.com/walkingsky/luci-wifidog luci-app-wifidog
+git clone --depth 1 https://github.com/peter-tank/luci-app-autorepeater
+git clone --depth 1 https://github.com/CCnut/feed-netkeeper && mvdir feed-netkeeper
+git clone --depth 1 https://github.com/brvphoenix/luci-app-wrtbwmon wrtbwmon1 && mvdir wrtbwmon1
+git clone --depth 1 https://github.com/brvphoenix/wrtbwmon wrtbwmon2 && mvdir wrtbwmon2
+git clone --depth 1 https://github.com/linkease/ddnsto-openwrt && mvdir ddnsto-openwrt
+git clone --depth 1 https://github.com/sensec/luci-app-udp2raw
+git clone --depth 1 https://github.com/LGA1150/openwrt-sysuh3c && mvdir openwrt-sysuh3c
+git clone --depth 1 https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd cupsd1/cups/cups ./ ; rm -rf cupsd1
 
 svn cohttps://github.com/Lienol/openwrt/trunk/package/lean/luci-app-autoreboot
 svn cohttps://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
@@ -74,8 +78,8 @@ svn cohttps://github.com/Ysurac/openmptcprouter-feeds/trunk/luci-app-iperf
 svn cohttps://github.com/sirpdboy/netspeedtest/trunk/luci-app-netspeedtest
 svn cohttps://github.com/messense/aliyundrive-webdav/trunk/openwrt aliyundrive && mvdir aliyundrive
 
-git clone https://github.com/BCYDTZ/luci-app-UUGameAcc
-git clone https://github.com/ntlf9t/luci-app-easymesh
+git clone --depth 1 https://github.com/BCYDTZ/luci-app-UUGameAcc
+git clone --depth 1 https://github.com/ntlf9t/luci-app-easymesh
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolddns
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
@@ -113,6 +117,5 @@ mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
 exit 0
-
 
 
