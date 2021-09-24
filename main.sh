@@ -14,7 +14,6 @@ git clone --depth 1 https://github.com/kiddin9/qBittorrent-Enhanced-Edition
 git clone --depth 1 https://github.com/kiddin9/autoshare && mvdir autoshare
 git clone --depth 1 https://github.com/kiddin9/openwrt-openvpn && mvdir openwrt-openvpn
 git clone --depth 1 https://github.com/kiddin9/luci-app-xlnetacc
-
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall
 git clone --depth 1 https://github.com/Lienol/openwrt-package
 git clone --depth 1 https://github.com/BoringCat/luci-app-mentohust
@@ -47,7 +46,7 @@ git clone --depth 1 https://github.com/sirpdboy/luci-app-autotimeset
 git clone --depth 1 https://github.com/wolandmaster/luci-app-rtorrent
 git clone --depth 1 https://github.com/jerrykuku/luci-app-jd-dailybonus
 git clone --depth 1 https://github.com/NateLol/luci-app-oled
-
+git clone --depth 1 https://github.com/frainzy1477/luci-app-clash
 git clone --depth 1 https://github.com/destan19/OpenAppFilter && mvdir OpenAppFilter
 git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff
 git clone --depth 1 https://github.com/lvqier/luci-app-dnsmasq-ipset
@@ -71,16 +70,14 @@ svn co https://github.com/x-wrt/packages/trunk/net/nft-qos
 svn co https://github.com/x-wrt/luci/trunk/applications/luci-app-nft-qos
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
-
 svn co https://github.com/doushang/luci-app-shortcutmenu/trunk/luci-app-shortcutmenu
 svn co https://github.com/sundaqiang/openwrt-packages/trunk/luci-app-services-wolplus
 svn co https://github.com/Ysurac/openmptcprouter-feeds/trunk/luci-app-iperf
 svn co https://github.com/sirpdboy/netspeedtest/trunk/luci-app-netspeedtest
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt aliyundrive && mvdir aliyundrive
 svn co https://github.com/immortalwrt/packages/trunk/net/amule
-svn co https://github.com/kiddin9/openwrt-amule-dlp/trunk/luci-app-amule
+svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-amule
 svn co https://github.com/immortalwrt/packages/trunk/net/cdnspeedtest
-svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolddns
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
@@ -99,7 +96,6 @@ svn co https://github.com/kenzok8/litte/trunk/luci-theme-opentopd_new
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-atmaterial_new
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-mcat
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-tomato
-
 svn co https://github.com/immortalwrt/packages/trunk/admin/bpytop
 svn co https://github.com/immortalwrt/packages/trunk/libs/jpcre2
 svn co https://github.com/immortalwrt/packages/trunk/libs/wxbase
@@ -117,5 +113,7 @@ mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
 exit 0
+
+
 
 
