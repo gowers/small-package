@@ -14,7 +14,6 @@ git clone --depth 1 https://github.com/kiddin9/qBittorrent-Enhanced-Edition
 git clone --depth 1 https://github.com/kiddin9/autoshare && mvdir autoshare
 git clone --depth 1 https://github.com/kiddin9/openwrt-openvpn && mvdir openwrt-openvpn
 git clone --depth 1 https://github.com/kiddin9/luci-app-xlnetacc
-git clone --depth 1 https://github.com/kiddin9/openwrt-amule-dlp && mvdir openwrt-amule-dlp
 
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall
 git clone --depth 1 https://github.com/Lienol/openwrt-package
@@ -31,7 +30,8 @@ git clone --depth 1 https://github.com/4IceG/luci-app-sms-tool smstool && mvdir 
 git clone --depth 1 https://github.com/rufengsuixing/luci-app-usb3disable
 git clone --depth 1 https://github.com/silime/luci-app-xunlei
 git clone --depth 1 https://github.com/ysc3839/luci-proto-minieap
-
+git clone --depth 1 https://github.com/BCYDTZ/luci-app-UUGameAcc
+git clone --depth 1 https://github.com/ntlf9t/luci-app-easymesh
 git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot
 git clone --depth 1 https://github.com/shanglanxin/luci-app-homebridge
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon
@@ -77,9 +77,9 @@ svn co https://github.com/sundaqiang/openwrt-packages/trunk/luci-app-services-wo
 svn co https://github.com/Ysurac/openmptcprouter-feeds/trunk/luci-app-iperf
 svn co https://github.com/sirpdboy/netspeedtest/trunk/luci-app-netspeedtest
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt aliyundrive && mvdir aliyundrive
-
-git clone --depth 1 https://github.com/BCYDTZ/luci-app-UUGameAcc
-git clone --depth 1 https://github.com/ntlf9t/luci-app-easymesh
+svn co https://github.com/immortalwrt/packages/trunk/net/amule
+svn co https://github.com/kiddin9/openwrt-amule-dlp/trunk/luci-app-amule
+svn co https://github.com/immortalwrt/packages/trunk/net/cdnspeedtest
 svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolddns
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
