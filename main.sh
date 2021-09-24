@@ -90,7 +90,7 @@ svn co https://github.com/openwrt/packages/trunk/net/shadowsocks-libev
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-udp2raw
 svn co https://github.com/immortalwrt/packages/trunk/net/udp2raw-tunnel
-svn co https://github.com/kenzok8/jell/trunk/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
 svn co https://github.com/kenzok8/jell/trunk/adguardhome
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-smartdns
 svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
