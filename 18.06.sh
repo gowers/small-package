@@ -11,8 +11,7 @@ git clone https://github.com/kiddin9/autoshare && mvdir autoshare
 git clone https://github.com/kiddin9/openwrt-openvpn && mvdir openwrt-openvpn
 git clone https://github.com/kiddin9/luci-app-xlnetacc
 git clone https://github.com/kiddin9/openwrt-amule-dlp && mvdir openwrt-amule-dlp
-        ) &
-        (
+
 git clone https://github.com/xiaorouji/openwrt-passwall
 git clone https://github.com/Lienol/openwrt-package
 git clone https://github.com/BoringCat/luci-app-mentohust
@@ -28,8 +27,7 @@ git clone https://github.com/4IceG/luci-app-sms-tool smstool && mvdir smstool
 git clone https://github.com/rufengsuixing/luci-app-usb3disable
 git clone https://github.com/silime/luci-app-xunlei
 git clone https://github.com/ysc3839/luci-proto-minieap
-        ) &
-        (
+
 git clone https://github.com/zzsj0928/luci-app-pushbot
 git clone https://github.com/shanglanxin/luci-app-homebridge
 git clone https://github.com/jerrykuku/luci-theme-argon
@@ -45,8 +43,7 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/wolandmaster/luci-app-rtorrent
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 git clone https://github.com/NateLol/luci-app-oled
-        ) &
-        (
+
 git clone https://github.com/destan19/OpenAppFilter && mvdir OpenAppFilter
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/lvqier/luci-app-dnsmasq-ipset
@@ -61,8 +58,7 @@ git clone https://github.com/linkease/ddnsto-openwrt && mvdir ddnsto-openwrt
 git clone https://github.com/sensec/luci-app-udp2raw
 git clone https://github.com/LGA1150/openwrt-sysuh3c && mvdir openwrt-sysuh3c
 git clone https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd cupsd1/cups/cups ./ ; rm -rf cupsd1
-        ) &
-        (
+
 svn cohttps://github.com/Lienol/openwrt/trunk/package/lean/luci-app-autoreboot
 svn cohttps://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
 svn cohttps://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns/trunk/tencentcloud_ddns luci-app-tencentddns
@@ -71,8 +67,7 @@ svn cohttps://github.com/x-wrt/packages/trunk/net/nft-qos
 svn cohttps://github.com/x-wrt/luci/trunk/applications/luci-app-nft-qos
 svn cohttps://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn cohttps://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
-        ) &
-        (
+
 svn cohttps://github.com/doushang/luci-app-shortcutmenu/trunk/luci-app-shortcutmenu
 svn cohttps://github.com/sundaqiang/openwrt-packages/trunk/luci-app-services-wolplus
 svn cohttps://github.com/Ysurac/openmptcprouter-feeds/trunk/luci-app-iperf
@@ -100,8 +95,7 @@ svn co https://github.com/kenzok8/litte/trunk/luci-theme-opentopd_new
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-atmaterial_new
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-mcat
 svn co https://github.com/kenzok8/litte/trunk/luci-theme-tomato
-        ) &
-        (
+
 svn co https://github.com/immortalwrt/packages/trunk/admin/bpytop
 svn co https://github.com/immortalwrt/packages/trunk/libs/jpcre2
 svn co https://github.com/immortalwrt/packages/trunk/libs/wxbase
@@ -119,5 +113,6 @@ mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
 exit 0
+
 
 
