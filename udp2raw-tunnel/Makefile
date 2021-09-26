@@ -9,11 +9,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=udp2raw-tunnel
 PKG_VERSION:=20200818.0
-PKG_RELEASE:=$(AUTORELEASE)
+PKG_RELEASE:=
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/wangyu-/udp2raw-tunnel/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=712b0cb819555cb374206e95005b0ca6b4af86c74d572e0570630f67dfeea313
+PKG_HASH:=skip
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE

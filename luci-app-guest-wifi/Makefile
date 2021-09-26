@@ -10,7 +10,7 @@ LUCI_TITLE:=luci-app-guest-wifi
 LUCI_DEPENDS:=
 LUCI_PKGARCH:=all
 PKG_VERSION:=1.0
-PKG_RELEASE:=2
+PKG_RELEASE:=
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
