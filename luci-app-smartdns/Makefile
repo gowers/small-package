@@ -7,7 +7,7 @@ include $(TOPDIR)/rules.mk
 PKG_LICENSE:=GPL-3.0-or-later
 PKG_MAINTAINER:=Nick Peng <pymumu@gmail.com>
 PKG_VERSION:=1.2020.30
-PKG_RELEASE:=$(AUTORELEASE)1
+PKG_RELEASE:=1
 
 LUCI_TITLE:=LuCI for smartdns
 LUCI_DESCRIPTION:=Provides Luci for smartdns
@@ -21,6 +21,6 @@ help
 	Version: $(PKG_VERSION)-$(PKG_RELEASE)
 endef
 
-include $(TOPDIR)/feeds/luci/luci.mk
+include ../../luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
