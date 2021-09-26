@@ -10,7 +10,7 @@ LUCI_DEPENDS:=+curl +libcurl
 LUCI_PKGARCH:=all
 PKG_NAME:=luci-app-koolddns
 PKG_VERSION:=1.1
-PKG_RELEASE:=4
+PKG_RELEASE:=$(AUTORELEASE)4
 
 
 define Package/$(PKG_NAME)/description

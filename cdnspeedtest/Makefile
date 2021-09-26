@@ -10,7 +10,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=CloudflareSpeedTest
 PKG_VERSION:=1.5.1
-PKG_RELEASE:=$(AUTORELEASE)
+PKG_RELEASE:=$(AUTORELEASE)$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/XIU2/CloudflareSpeedTest/tar.gz/v$(PKG_VERSION)?
