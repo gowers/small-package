@@ -9,10 +9,4 @@ sed -i \
 -e 's/ca-certificates/ca-bundle/' \
 */Makefile
 
-for pkg in $(ls -d */); do
-if [ "$(grep "PKG_RELEASE" $pkg/Makefile)" ]; then
-sed -i "s/PKG_RELEASE:=.*/PKG_RELEASE:=$(git rev-list --count master $pkg)/" $pkg/Makefile || true
-fi
-done
-
 exit 0
