@@ -111,6 +111,8 @@ mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
 
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
+rm -rf create_acl_for_luci.err & rm -rf create_acl_for_luci.ok
+rm -rf create_acl_for_luci.warn
 exit 0
 
 
