@@ -9,5 +9,5 @@ sed -i \
 -e 's/ca-certificates/ca-bundle/' \
 */Makefile
 bash diy/create_acl_for_luci.sh -a >/dev/null 2>&1
-
+bash diy/convert_translation.sh -a >/dev/null 2>&1
 exit 0
