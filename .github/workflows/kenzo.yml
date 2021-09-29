@@ -2,7 +2,6 @@
 name: Update packages
 
 on:
-on:
   push:
     paths:
       - '.github/workflows/kenzo.yml'
