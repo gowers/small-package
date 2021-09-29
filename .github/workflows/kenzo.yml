@@ -2,16 +2,16 @@
 name: Update packages
 
 on:
-  repository_dispatch:
-  workflow_dispatch:
-    types: published
+on:
   push:
-    branches:
-      - main
+    paths:
+      - '.github/workflows/kenzo.yml'
+      - 'diy/**'
   schedule:
-    - cron: 0 */24 * * *
+    - cron: 0 */12 * * *
   watch:
     types: started
+  repository_dispatch:
 
 env:
   TZ: Asia/Shanghai
