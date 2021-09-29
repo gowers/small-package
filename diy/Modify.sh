@@ -8,5 +8,6 @@ sed -i \
 -e 's?\.\./\.\./luci.mk?$(TOPDIR)/feeds/luci/luci.mk?' \
 -e 's/ca-certificates/ca-bundle/' \
 */Makefile
+bash diy/create_acl_for_luci.sh -a >/dev/null 2>&1
 
 exit 0
