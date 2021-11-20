@@ -63,9 +63,10 @@ git clone --depth 1 https://github.com/LGA1150/openwrt-sysuh3c && mvdir openwrt-
 git clone --depth 1 https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd cupsd1/cups/cups ./ ; rm -rf cupsd1
 git clone --depth 1 https://github.com/kenzok78/luci-app-netspeedtest
 git clone --depth 1 https://github.com/kenzok78/udp2raw
-git clone --depth 1 https://github.com/kenzok78/luci-theme-argonne.git
+git clone --depth 1 https://github.com/kenzok78/luci-theme-argonne
+git clone --depth 1 https://github.com/kiddin9/luci-app-wizard
 
-svn co https://github.com/Lienol/openwrt/trunk/package/lean/luci-app-autoreboot
+svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
 svn co https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns/trunk/tencentcloud_ddns luci-app-tencentddns
 svn co https://github.com/coolsnowwolf/lede/trunk/package/network/services/shellsync
@@ -88,7 +89,7 @@ svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 svn co https://github.com/openwrt/packages/trunk/net/shadowsocks-libev
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
 svn co https://github.com/immortalwrt/openwrt-filebrowser/trunk/filebrowser
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
+svn co https://github.com/kenzok8/jell/trunk/luci-app-adguardhome
 svn co https://github.com/kenzok8/jell/trunk/adguardhome
 svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-smartdns
 svn co https://github.com/immortalwrt/packages/trunk/net/smartdns
