@@ -106,9 +106,10 @@ svn co https://github.com/immortalwrt/packages/trunk/libs/libcron
 svn co https://github.com/immortalwrt/packages/trunk/libs/rapidjson
 svn co https://github.com/immortalwrt/packages/trunk/libs/quickjspp
 svn co https://github.com/immortalwrt/packages/trunk/libs/toml11
-svn co https://github.com/garypang13/openwrt-packages/trunk/qtbase
-svn co https://github.com/garypang13/openwrt-packages/trunk/qttools
-svn co https://github.com/garypang13/openwrt-packages/trunk/rblibtorrent
+svn co https://github.com/kiddin9/openwrt-packages/trunk/UnblockNeteaseMusic
+svn co https://github.com/kiddin9/openwrt-packages/trunk/qtbase
+svn co https://github.com/kiddin9/openwrt-packages/trunk/qttools
+svn co https://github.com/kiddin9/openwrt-packages/trunk/rblibtorrent
 svn co https://github.com/linkease/istore/trunk/luci/luci-app-store
 svn co https://github.com/linkease/istore-ui/trunk/app-store-ui
 
