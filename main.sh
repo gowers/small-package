@@ -66,7 +66,8 @@ git clone --depth 1 https://github.com/kenzok78/udp2raw
 git clone --depth 1 https://github.com/kenzok78/luci-theme-argonne
 git clone --depth 1 https://github.com/kiddin9/luci-app-wizard
 git clone --depth 1 https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
-git clone --depth 1 https://github.com/kenzok78/minisign.git
+git clone --depth 1 https://github.com/kenzok78/minisign
+git clone --depth 1 https://github.com/kenzok78/luci-app-argon_new-config
 
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
