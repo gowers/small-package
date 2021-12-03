@@ -60,7 +60,6 @@ git clone --depth 1 https://github.com/brvphoenix/wrtbwmon wrtbwmon2 && mvdir wr
 git clone --depth 1 https://github.com/sensec/luci-app-udp2raw
 git clone --depth 1 https://github.com/LGA1150/openwrt-sysuh3c && mvdir openwrt-sysuh3c
 git clone --depth 1 https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd cupsd1/cups/cups ./ ; rm -rf cupsd1
-git clone --depth 1 https://github.com/kenzok78/luci-app-netspeedtest
 git clone --depth 1 https://github.com/kenzok78/udp2raw
 git clone --depth 1 https://github.com/kenzok78/luci-theme-argonne
 git clone --depth 1 https://github.com/kiddin9/luci-app-wizard
@@ -117,6 +116,7 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-advancedsettin
 svn co https://github.com/linkease/istore/trunk/luci/luci-app-store
 svn co https://github.com/linkease/istore-ui/trunk/app-store-ui
 svn co https://github.com/linkease/nas-packages/trunk/network/services && mvdir services
+svn co https://github.com/sirpdboy/netspeedtest/trunk/luci-app-netspeedtest
 
 mv -n openwrt-passwall/* ./ ; rm -Rf openwrt-passwall
 mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
