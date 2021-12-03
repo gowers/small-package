@@ -57,7 +57,6 @@ git clone --depth 1 https://github.com/peter-tank/luci-app-autorepeater
 git clone --depth 1 https://github.com/CCnut/feed-netkeeper && mvdir feed-netkeeper
 git clone --depth 1 https://github.com/brvphoenix/luci-app-wrtbwmon wrtbwmon1 && mvdir wrtbwmon1
 git clone --depth 1 https://github.com/brvphoenix/wrtbwmon wrtbwmon2 && mvdir wrtbwmon2
-git clone --depth 1 https://github.com/linkease/ddnsto-openwrt && mvdir ddnsto-openwrt
 git clone --depth 1 https://github.com/sensec/luci-app-udp2raw
 git clone --depth 1 https://github.com/LGA1150/openwrt-sysuh3c && mvdir openwrt-sysuh3c
 git clone --depth 1 https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd cupsd1/cups/cups ./ ; rm -rf cupsd1
@@ -69,6 +68,7 @@ git clone --depth 1 https://github.com/UnblockNeteaseMusic/luci-app-unblocknetea
 git clone --depth 1 https://github.com/kenzok78/minisign
 git clone --depth 1 https://github.com/kenzok78/luci-app-argon_new-config
 git clone --depth 1 https://github.com/kenzok78/luci-app-argonne-config
+git clone --depth 1 https://github.com/linkease/nas-packages-luci && mvdir luci
 
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
@@ -116,6 +116,7 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/rblibtorrent
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-advancedsetting
 svn co https://github.com/linkease/istore/trunk/luci/luci-app-store
 svn co https://github.com/linkease/istore-ui/trunk/app-store-ui
+svn co https://github.com/linkease/nas-packages/trunk/network/services && mvdir services
 
 mv -n openwrt-passwall/* ./ ; rm -Rf openwrt-passwall
 mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
