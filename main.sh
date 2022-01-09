@@ -61,7 +61,7 @@ git clone --depth 1 https://github.com/sensec/luci-app-udp2raw
 git clone --depth 1 https://github.com/LGA1150/openwrt-sysuh3c && mvdir openwrt-sysuh3c
 git clone --depth 1 https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd cupsd1/cups/cups ./ ; rm -rf cupsd1
 git clone --depth 1 https://github.com/kenzok78/udp2raw
-git clone --depth 1 https://github.com/kenzok78/luci-theme-argonne
+git clone --depth 1 https://github.com/gowers/luci-theme-argonne
 git clone --depth 1 https://github.com/kiddin9/luci-app-wizard
 git clone --depth 1 https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
 git clone --depth 1 https://github.com/kenzok78/openwrt-minisign
